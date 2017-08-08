@@ -1,4 +1,5 @@
 # Relational Database for a Fictional Tutoring Company
+**Jacob Hillman, Victoria Vo, Maya Muralidhar**
 
 This database was produced in collaboration with two other computer science students (Victoria Vo and Maya Muralidhar) for a class assignment in Database Concepts (CSE 3330 at Southern Methodist University).
 
