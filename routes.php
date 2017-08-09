@@ -1,5 +1,4 @@
 <?php
-//Victoria's Routes
 // Login insert username and password
 //need to make sure login can't be done multiple time in succession because multiple authorization tokens will be created!!!
 $app->post('/login', function ($request, $response) {
@@ -497,9 +496,7 @@ $app->post('/ratesession', function ($request, $response) {
         }
         return $this->response->withJson($input);
 
-});
-       
-//Jacob's routes
+});    
 
 //Add the remaining tutor information
 $app->post('/tutor/newProfile', function ($request, $response) {
@@ -569,7 +566,7 @@ $app->post('/student/newProfile', function ($request, $response) {
 	$newResponse = $this->response->withAddedHeader("Authorization", $auth);
 	return $newResponse->withJson($input);
 });
-//Maya's Routes
+
 //View Tutor Profile
 $app->get('/tutor/viewProfile', function ($request, $response, $args) {
 	$authArray = $request->getHeader('Authorization');
